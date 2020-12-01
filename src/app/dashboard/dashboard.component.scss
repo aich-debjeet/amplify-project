@@ -1,0 +1,42 @@
+.font-display{
+    font-size: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.dashboard-container{
+    padding-left: 20px;
+    .parrent__block{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .options{
+            text-align: center;
+            width:400px;
+            height:185px;
+            margin:10px;
+            background-color: floralwhite;
+            border-radius: 30px;
+            position: relative;
+
+            .name{
+                position: absolute;
+                left: 10px;
+                top: 23px;
+            }
+            .numbers{
+                left: 10px;
+                position: absolute;
+                top: 60px;
+                font-size: xx-large;
+            }
+            .city {
+                left: 10px;
+                position: absolute;
+                top: 105px;
+                font-size: xx-large;
+            }
+
+        }
+    }
+}

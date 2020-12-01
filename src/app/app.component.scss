@@ -1,0 +1,39 @@
+.main_block{
+    width: 100%;
+    background-color: gainsboro;
+    display: flex;
+}
+
+.demo-dashboard-block{
+    width:100%;
+    max-width: 1000px;
+     &__leftside{
+         width:200px;
+         padding:15px 10px;
+         background-color:slategray;
+     }
+}
+
+.demo-dashboard-block-options{
+    height:100%;
+    border: cadetblue 1px double;
+    border-radius: 4px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    .list{
+        width:100%;
+        padding:5px 0px 0px 10px;
+        display:block;
+        &__options{
+            display: flex;
+            flex-direction: column;
+            padding:10px 0px 11px 13px;
+            &__data{
+                padding-top: 4px;
+                padding-bottom: 4px;
+                color: whitesmoke;
+            }
+
+        }
+    }
+}

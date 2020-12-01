@@ -1,0 +1,11 @@
+<section class="dashboard-container">
+  <p>Home</p>
+  <h6 class="font-display">Dashboards</h6>
+  <div class="parrent__block">
+    <div class="options" *ngFor="let data of arr">
+      <span class="name">{{data.name}}</span>
+      <span class="numbers">{{data.number}}</span>
+      <span class="city">{{data.city}}</span>
+    </div>
+  </div>
+</section>
